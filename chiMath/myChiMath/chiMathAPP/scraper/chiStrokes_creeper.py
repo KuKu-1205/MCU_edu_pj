@@ -7,7 +7,7 @@ def strokes(word):
     soup = bs(web.text,"html.parser") #將網頁資料以html.parser
     sel = soup.find(class_="js-writing-img main-img")
     # sel = sel.select('img')
-    print(soup)
+    print(soup )
     
         
 strokes('破')
